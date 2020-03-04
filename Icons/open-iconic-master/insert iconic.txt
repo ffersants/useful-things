@@ -1,0 +1,2 @@
+• Using with bootstrap, first add the css link:
+	- <link rel="stylesheet" href="font/css/open-iconic-bootstrap.min">
