@@ -1,0 +1,11 @@
+the site: https://www.frontendmentor.io/
+It has chalenges for you to choose and take, that are some that are payed and
+others that aren't.
+So, you can see another person's code, comment it, retrieve some feedback and 
+the same the another person can do with yours.
+It's great to have ideas and things to train, learn and observe.
+I've started a project named "Insure leading page" and I just need to study 
+a little bit more about JS so then I get back to complete more things for my portfolio.
+
+https://coderbyte.com/
+the same of frontendmentor.io, but with free courses about data structure, algorithms, job interviews and etc..
