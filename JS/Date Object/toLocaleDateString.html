@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        var data = new Date();
+        data = data.toLocaleDateString('pt-br',{
+            dateStyle: 'long',
+            //full: sábado, 21 de novembro de 2020
+            //long: 21 de novembro de 2020
+            //medium: 21 de nov. de 2020
+            //short: 21/11/2020
+            
+            //quando dateStyle é setado, opções abaixo ficam indisponíveis
+            //weekday: 'narrow'
+                        //long: sábado
+                        //short: sáb.
+                        //narrow: S
+            //year: '2-digit'
+                    //numeric: 2020
+                    //2-digit: 20
+            //month: '2-digit'
+                    //numeric: 8 
+                    //2-digit: 08
+            //day: '2-digit'
+                    //numeric: 8 
+                    //2-digit: 08
+
+
+        })
+        console.log(data)
+
+    </script>
+</body>
+</html>
