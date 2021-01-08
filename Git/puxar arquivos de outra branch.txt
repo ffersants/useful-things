@@ -1,0 +1,23 @@
+Basta utilizar git pull origin <branch-name>
+
+Vamos supôr que temos as branches
+	• master
+	• main
+E master possui uma coleção de cinco arquivos .js
+Para puxar esses arquivos também para main, utilize
+	git pull origin master
+
+Um adendo é que o git costuma impedir essa tática de merge
+entre branches que não possuem uma base comum, portanto, ao
+tentar realizar o git pull descrito e se deparar com o erro 
+
+	$ git pull origin master
+	From https://github.com/ffersants/repo
+ 		* branch            master     -> FETCH_HEAD
+	fatal: refusing to merge unrelated histories
+
+Utilize o comando
+
+	git pull origin master --allow-unrelated-histories,
+
+para passar por cima dessa barreira imposta pelo git.
