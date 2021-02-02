@@ -1,0 +1,8 @@
+Criar porta para recerber requisição e fazer requisição para teste de velocidade de rede 
+
+"Servidor" = iperf -s
+	Cria uma porta que fica escutando requisições
+
+"Client" = iperf -c ditec112805
+	Realiza requisição para o servidor que está escutando requisições na porta
+	retornando por fim o total de dados transferidos e a taxa de transferência
