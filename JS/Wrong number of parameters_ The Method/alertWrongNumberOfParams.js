@@ -14,5 +14,5 @@ function alertWrongNumberOfParams(numOfParams, paramNames){
     throw new Error('Error: ' + numOfParams + ' arguments are expected: ' + paramNames + '.')
 }
 //showName('Fernando');
-//showName('Fernando', 'Santos', 'Ferreira');
+showName('Fernando', 'Santos', 'Ferreira');
 showName('Fernando', 'Santos Ferreira',);
