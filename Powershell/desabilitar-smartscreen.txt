@@ -1,0 +1,1 @@
+reg add “HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer” /v SmartScreenEnabled /t REG_SZ /d Off
